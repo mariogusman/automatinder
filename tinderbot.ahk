@@ -1,9 +1,8 @@
-#Persistent
 #SingleInstance, Force
 SetTitleMatchMode, 2
 
 SetTimer, CheckBrowserAndTab, 1000 ; check every 1 second (1000 milliseconds)
-interval := 5000 ; set the interval for the right arrow key, in milliseconds
+interval := 500 ; set the interval for the right arrow key, in milliseconds
 
 CheckBrowserAndTab:
     Process, Exist, msedge.exe ; check if Microsoft Edge is open
